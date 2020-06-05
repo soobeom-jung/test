@@ -27,7 +27,7 @@ Signed : Int8 / Unsinged : UInt8<br/><br/>
 `UInt8.min` 👉 0<br/>
 `Int8.max` 👉 255<br/><br/>
 
-`MemoryLayout <Int>.size 👉 8<br/>
+`MemoryLayout <Int>.size` 👉 8<br/>
 `Int.min` 👉 -922<br/>
 `Int.max` 👉 922<br/><br/>
 
@@ -37,7 +37,6 @@ Signed : Int8 / Unsinged : UInt8<br/><br/>
 let num = 123<br/>
 type(of: num)
 ```
-<br/>
 👉 Int.Type<br/><br/>
 
 ### Floating-point Type(실수 자료형)<br/><br/>

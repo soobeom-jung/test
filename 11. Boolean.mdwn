@@ -1,0 +1,10 @@
+# Boolean<br/><br/>
+
+```swift
+let valid = true
+let valid: Bool = false
+```
+false를 0으로 대신 사용 불가능하다<br/><br/>
+
+Bool은 저장하는 변수와 상수의 이름을 지정할 때 has나 is 접두어를 붙이기도 한다<br/>
+```let isValid: Bool = true```
