@@ -1,0 +1,55 @@
+# Numbers<br/><br/>
+
+코드에 입력된 숫자 : Number Literal<br/><br/>
+
+### 정수 literal<br/>
+1. 실수 : 0.23 (0 생략 불가)<br/>
+2. 음수 : - 붙여야함<br/>
+3. 10진수 실수 : 1.23e4<br/>
+4. 16진수 실수 : 0xAp2<br/>
+5. 금액 : 1_000_000 (금액 처리 코드 작성시 가독성이 높아진다)<br/>
+6. 진법 : 10진수(10), 2진수(0b1010), 8진수(0o12), 16진수(0xA)<br/><br/>
+
+### Integer Types(정수 자료형)<br/><br/>
+
+Int8 : 8비트 = 1바이트 저장 가능<br/>
+Int16 : 16비트 = 2바이트 저장 가능<br/><br/>
+
+최솟값 리턴 코드<br/>
+`Int8.min` 👉 -128<br/>
+최댓값 리턴 코드<br/>
+`Int8.max` 👉 127<br/>
+메모리 공간 크기(바이트) 코드<br/>
+`MemoryLayout <Int8>.size` 👉 1<br/><br/>
+
+Signed : Int8 / Unsinged : UInt8<br/><br/>
+
+`UInt8.min` 👉 0<br/>
+`Int8.max` 👉 255<br/><br/>
+
+`MemoryLayout <Int>.size 👉 8<br/>
+`Int.min` 👉 -922<br/>
+`Int.max` 👉 922<br/><br/>
+
+메모리 낭비 걱정 없이 Int8이 아닌 Int를 사용하면 된다<br/><br/>
+
+```swift
+let num = 123<br/>
+type(of: num)
+```
+<br/>
+👉 Int.Type<br/><br/>
+
+### Floating-point Type(실수 자료형)<br/><br/>
+
+Float : 4바이트 크기<br/>
+Double : 8바이트 크기<br/><br/>
+
+메모리의 크기에 따라 소수점의 정확도가 달라진다<br/>
+Float는 소수 6자리까지, Double은 소수 15자리까지 정확도를 보장한다<br/><br/>
+
+실수 자료형은 양수, 0, 음수를 모두 저장한다<br/>
+정수 자료형보다 큰 값을 저장한다<br/>
+자료형을 지정하지 않으면 Double로 저장된다
+
+
