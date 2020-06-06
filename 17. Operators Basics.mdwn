@@ -1,0 +1,34 @@
+# <Operators Basics(연산자 기초 이론)><br/><br/>
+
+- a + b<br/>
+👉 + : 연산자(operator)<br/>
+👉 a,b : 피연산자(operand)<br/><br/>
+
+- +a 👉 Unary Operator (단항 연산자)<br/>
+- a + b 👉 Binary Operator (이항 연산자)<br/>
+- a ? b : c 👉 Ternary Operator (삼항 연산자, 조건 연산자)<br/><br/>
+
+- 공백 (whitespace)<br/><br/>
+
+### +a (단항 연산자)<br/>
++와 a를 공백으로 분리하면 단항 연산자가 아니다<br/><br/>
+
+### a + b (이항 연산자)<br/>
+이항 연산자는 a, +, b를 모두 붙여쓰는 것이 가능하지만 공백을 두는 것이 좋다<br/><br/>
+
+### a ? b : c (삼항 연산자)<br/>
+삼항 연산자는 모두 공백을 둬야 한다<br/><br/>
+
+- +a Prefix Operator 전치 연산자<br/>
+- a+ Postfix Operator 후치 연산자<br/>
+- a + b Infix Operator <br/>
+- a + b * c 👉 b와c를 먼저 곱하고 a를 더한다 👉 Precedence(우선 순위)<br/>
+: 모두 암기할 필요 없음 (괄호를 사용!)<br/>
+ex) (((a + b) * c) - d) * e)<br/><br/>
+
+ex) *a - b - c*<br/>
+우선순위가 같은 경우<br/><br/>
+
+Associativity(결합규칙)을 이용한다<br/>
+Left Associativity 좌결합성  : 왼쪽에서 오른쪽으로 계산한다<br/>
+Right Associativity 우결합성 : 오른쪽에서 왼쪽으로 계산한다<br/>
